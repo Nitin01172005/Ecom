@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
-import { IoMdSearch } from "react-icons/io5";
+import { GoSearch } from "react-icons/go";
 import Logo from '../../assets/logo-Jm4BVSCI.png'
 import { FaCartShopping } from "react-icons/fa6";
 import DarkMode from './DarkMode';
@@ -73,7 +73,7 @@ const Navbar = ({handleOrderPopup}) => {
              placeholder='search' 
              className='w-[200px] sm:w-[200px] group-hover:w-[300px] duration-300 border rounded-full  border-gray-400 px-2 py-1 focus:outline-none focus:border
              focus:border-primary dark:border-gray-500 dark:bg-gray-800 focus:bg-primary/40' />
-             <IoMdSearch className='text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3' />
+             <GoSearch className='text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3' />
           </div>
           
         <button 
