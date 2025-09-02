@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
-import { IoMdSearch } from "react-icons/io";
+import { IoMdSearch } from "react-icons/io5";
 import Logo from '../../assets/logo-Jm4BVSCI.png'
 import { FaCartShopping } from "react-icons/fa6";
 import DarkMode from './DarkMode';
